@@ -1,5 +1,4 @@
 package com.example.flashcardapp
-
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge

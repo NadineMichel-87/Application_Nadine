@@ -5,25 +5,53 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/flashcard_question"
+        android:text="quel est la deuxieme ville du pays?"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="Quel est le nom de la 2e ville du pays?"
         android:textSize="40sp"
+        android:background="@drawable/cardbackground"
         android:visibility="visible" />
-
 
     <TextView
         android:id="@+id/flashcard_answer"
         android:layout_below="@+id/flashcard_question"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:text="Cap-haitien"
         android:textSize="40sp"
-        android:visibility="gone"
+        android:visibility="visible"
+        />
+
+
+    <TextView
+        android:id="@+id/flashcard_answer_1"
+        android:layout_below="@+id/flashcard_answer"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Hinche"
+        android:textSize="40sp"
+        android:visibility="visible"
+        />
+
+
+    <TextView
+        android:id="@+id/flashcard_answer_2"
+        android:layout_below="@+id/flashcard_answer_1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="fort-Liberte"
+        android:textSize="40sp"
+        android:visibility="visible"
         />
 
 </RelativeLayout>
